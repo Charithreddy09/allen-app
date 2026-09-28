@@ -4,11 +4,11 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- ALLEN "A": white triangle with notch -->
+    <!-- ALLEN "A": white triangle with notch, centered -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M50.6,20.5 L88,89.3 H78.5 L75.1,73.7 H62.6 L58.7,89.3 H34.6 Z" />
+        android:pathData="M54,20.5 L88,89.3 H63.9 L60.5,73.7 H47.6 L44.1,89.3 H20 Z" />
     <path
         android:fillColor="#1173D4"
-        android:pathData="M50.6,57.1 m-5.8,0 a5.8,5.8 0 1,0 11.6,0 a5.8,5.8 0 1,0 -11.6,0" />
+        android:pathData="M54,56.7 m-5.8,0 a5.8,5.8 0 1,0 11.6,0 a5.8,5.8 0 1,0 -11.6,0" />
 </vector>
