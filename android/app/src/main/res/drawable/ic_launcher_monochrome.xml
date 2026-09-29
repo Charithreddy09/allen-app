@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ALLEN monochrome layer (Android 13+ themed icons).
+  The launcher keeps ONLY the alpha channel of this drawable and recolors it
+  to a single system tint. So the silhouette must carry the whole identity:
+  a full square (the "tile" she liked) with the A knocked out of it as
+  negative space. If we shipped bare paths, the white A + blue dot would
+  flatten into one shape and the notch/dot would vanish.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Full-square silhouette minus the A and the counter-dot (evenOdd punch-out) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M0,0 H108 V108 H0 Z
+                          M54,20.5 L88,89.3 H63.9 L60.5,73.7 H47.6 L44.1,89.3 H20 Z
+                          M54,56.7 m-5.8,0 a5.8,5.8 0 1,0 11.6,0 a5.8,5.8 0 1,0 -11.6,0" />
+</vector>
